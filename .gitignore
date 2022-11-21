@@ -1,0 +1,22 @@
+##############
+### Common ###
+##############
+
+# modules
+**/node_modules
+
+# editor
+.vscode
+# misc
+**/.DS_Store
+**/*.pem
+**/*.log*
+# mongo
+.mongo-volume
+# temp
+**/dev
+**/config
+**/temp
+
+# env
+**/env
