@@ -2,10 +2,11 @@
   "name": "api",
   "version": "1.0.0",
   "description": "api for todoapp",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server.js localhost:3080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "nodemon swagger.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "random-id": "^1.0.4",
+    "swagger-autogen": "^2.22.0",
     "swagger-jsdoc": "^6.2.5",
     "swagger-ui-express": "^4.6.0"
   }
