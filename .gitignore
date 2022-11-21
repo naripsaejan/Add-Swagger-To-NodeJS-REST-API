@@ -4,7 +4,6 @@
 
 # modules
 **/node_modules
-
 # editor
 .vscode
 # misc
